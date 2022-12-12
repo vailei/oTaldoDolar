@@ -4,7 +4,11 @@
       "runtime": "vercel-php@0.5.2"
     }
   },
+  "builds": [
+    { "src": "/public/**", "use": "@vercel/static" }
+  ],
   "routes": [
+    { "src": "/(css|js|vendor|assets|build)/(.*)", "dest": "public/$1/$2" },
     { "src": "/(.*)",  "dest": "/api/index.php" }
   ],
   "public": true
