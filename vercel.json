@@ -4,6 +4,9 @@
       "runtime": "vercel-php@0.5.2"
     }
   },
+  "builds": [
+    { "src": "/public/**", "use": "@vercel/static" }
+  ],
   "routes": [
     { "src": "/public/(css|js)/(.*)$", "dest": "/api/assets.php?type=$1&file=$2" },
     { "src": "/(.*)",  "dest": "/api/index.php" }
