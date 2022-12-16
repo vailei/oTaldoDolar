@@ -4,7 +4,7 @@
     { "src": "/public/**", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/(css|js)/(.*)$", "dest": "/public/" },
+    { "src": "/(css|js)/(.*)$", "dest": "/public/index.css" },
     { "src": "/(.*)",  "dest": "/api/index.php" }
   ],
   "public": true
