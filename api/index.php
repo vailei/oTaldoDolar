@@ -12,76 +12,76 @@
 
     <style>
         html,body {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    background-color: aqua;
-    font-family: 'Montserrat', sans-serif;
-}
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            background-color: aqua;
+            font-family: 'Montserrat', sans-serif;
+        }
 
-header {
-    width: 100%;
-    background-color: red;
-}
+        header {
+            width: 100%;
+            background-color: red;
+        }
 
-.menu {
-    width: 50%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
+        .menu {
+            width: 50%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-.menu a {
-    margin: 0 auto;
-    text-decoration: none;
-    font-size: 30px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
+        .menu a {
+            margin: 0 auto;
+            text-decoration: none;
+            font-size: 30px;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
 
-.menu a:hover {
-    background-color: blue;
-}
+        .menu a:hover {
+            background-color: blue;
+        }
 
-.main {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-}
+        .main {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+        }
 
-.coinname {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 3%;
-    background-color: aquamarine;
-}
+        .coinname {
+            display: flex;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 3%;
+            background-color: aquamarine;
+        }
 
-.coinname h2 {
-    justify-content: center;
-    display: flex;
-    margin: 0 auto;
-    font-size: 50px;
-}
+        .coinname h2 {
+            justify-content: center;
+            display: flex;
+            margin: 0 auto;
+            font-size: 50px;
+        }
 
-.coinvalor {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    background-color: blueviolet;
-}
+        .coinvalor {
+            display: flex;
+            width: 80%;
+            margin: 0 auto;
+            background-color: blueviolet;
+        }       
 
-#valor {
-    justify-content: center;
-    display: flex;
-    margin: 0 auto;
-    font-size: 30px;
-}
+        #valor {
+            justify-content: center;
+            display: flex;
+            margin: 0 auto;
+            font-size: 30px;
+        }
     </style>
 </head>
 <body>
