@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="public/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="public/favicon/favicon-16x16.png">
     <link rel="manifest" href="public/favicon/site.webmanifest">
-    <title>oTalDoDolar</title>
+    <title>Euro - oTalDoDolar</title>
 </head>
 <body>
     <header>
@@ -20,13 +20,13 @@
     </header>
     <div class="main">
         <div class="coinname">
-            <h2>Dólar</h2>
+            <h2>Libra</h2>
         </div>
         <div class="coinvalor">
             <?php
                 $ch = curl_init();
                 $timeout = 0;
-                curl_setopt($ch, CURLOPT_URL, 'https://economia.awesomeapi.com.br/json/last/USD-BRL');
+                curl_setopt($ch, CURLOPT_URL, 'https://economia.awesomeapi.com.br/json/last/GBP-BRL');
                 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
                 curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
                 $conteudo = curl_exec ($ch);
@@ -34,7 +34,7 @@
     
                 $json = $conteudo;
                 $data = json_decode($json);
-                $data2 = $data->USDBRL->ask;
+                $data2 = $data->GBPBRL->ask;
                 $exibir = substr($data2, 0, 4);
                 
                 echo '<p id="valor">R$',$exibir,'</p>';
