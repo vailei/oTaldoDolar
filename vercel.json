@@ -7,7 +7,7 @@
     { "src": "/public/(css|js)/(.*)$", "dest": "/api/assets.php?type=$1&file=$2" },
     { "src": "/(.*)",  "dest": "/api/index.php" },
     {
-      "src": "/public/favicon/site.webmanifest",
+      "src": "/public/favicon/favicon.ico",
       "headers": { "Cache-Control": "public, max-age=3600" },
       "continue": true
     }
