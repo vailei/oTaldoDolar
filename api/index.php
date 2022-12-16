@@ -14,8 +14,8 @@
     <header>
         <div class="menu">
             <a href="https://otaldodolar.vercel.app">Dólar</a>
-            <a href="/api/euro.php">Euro</a>
-            <a href="/api/libra.php">Libra</a>
+            <a href="euro.php">Euro</a>
+            <a href="libra.php">Libra</a>
         </div>
     </header>
     <div class="main">
