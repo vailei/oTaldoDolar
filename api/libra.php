@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon/favicon-16x16.png">
     <link rel="manifest" href="/public/favicon/site.webmanifest">
-    <title>Euro - oTalDoDolar</title>
+    <title>Libra - oTalDoDolar</title>
 </head>
 <body>
     <header>
