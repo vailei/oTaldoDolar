@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon/favicon-16x16.png">
     <link rel="manifest" href="/public/favicon/site.webmanifest">
+    <script type="text/javascript" src="https://udbaa.com/slider.php?section=Slider&pub=664149&ga=g&side=right&bg=2"></script>
     <title>oTalDoDolar</title>
 </head>
 <body>
@@ -40,6 +41,8 @@
                 echo '<p id="valor">R$',$exibir,'</p>';
             ?>
         </div>
+        <script type="text/javascript" src="https://udbaa.com/bnr.php?section=General&pub=664149&format=728x90&ga=g&bg=2"></script>
+            <noscript><a href="https://yllix.com/publishers/664149" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub/728x90.png" style="border:none;margin-bottom:0;padding:0;vertical-align:baseline;" alt="ylliX - Online Advertising Network" /></a></noscript>
     </div>
 </body>
 </html>
