@@ -40,9 +40,6 @@
                 echo '<p id="valor">R$',$exibir,'</p>';
             ?>
         </div>
-        <script type="text/javascript" src="https://udbaa.com/slider.php?section=Slider&pub=664149&ga=g&side=right&bg=2"></script>
-        <script type="text/javascript" src="https://udbaa.com/bnr.php?section=General&pub=664149&format=728x90&ga=g&bg=2"></script>
-            <noscript><a href="https://yllix.com/publishers/664149" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub/728x90.png" style="border:none;margin-bottom:0;padding:0;vertical-align:baseline;" alt="ylliX - Online Advertising Network" /></a></noscript>
-    </div>
+   </div>
 </body>
 </html>
