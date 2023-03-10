@@ -2,13 +2,14 @@ html,body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    background-color: aqua;
+    background-color: #1c1c1c;
     font-family: 'Montserrat', sans-serif;
 }
 
 header {
     width: 100%;
-    background-color: red;
+    background-color: #ffffff;
+    font-weight: bold
 }
 
 .menu {
@@ -18,6 +19,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    color: white;
 }
 
 .menu a {
@@ -28,6 +30,7 @@ header {
     padding-right: 10%;
     padding-top: 1%;
     padding-bottom: 1%;
+    color: #1e1e1e;
 }
 
 .menu a:hover {
@@ -46,7 +49,7 @@ header {
     width: 80%;
     margin: 0 auto;
     margin-top: 3%;
-    background-color: aquamarine;
+    background-color: #4f5050;
 }
 
 .coinname h2 {
@@ -60,7 +63,7 @@ header {
     display: flex;
     width: 80%;
     margin: 0 auto;
-    background-color: blueviolet;
+    background-color: #444444;
 }
 
 #valor {
